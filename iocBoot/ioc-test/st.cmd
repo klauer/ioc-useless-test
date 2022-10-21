@@ -1,5 +1,5 @@
 #!../../bin/rhel7-x86_64/test
-# update
+# arbitrary change 1
 
 #- You may have to change test to something else
 #- everywhere it appears in this file
