@@ -10,9 +10,9 @@ jobs:
       - name: Add the problem matcher
         run: |
           echo "::add-matcher::.github/workflows/matcher.json"   
-      - name: Make up a problem
-        run: |
-          echo "iocBoot/ioc-test/st.cmd: line 1, col 1, Error - nonsensical - updated. (no-confusion)"
+      # - name: Make up a problem
+      #   run: |
+      #     echo "iocBoot/ioc-test/st.cmd: line 1, col 1, Error - nonsensical - updated. (no-confusion)"
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
