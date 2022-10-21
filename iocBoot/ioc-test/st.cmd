@@ -1,4 +1,4 @@
-#!../../bin/rhel7-x86_64/test
+#!../../bin/rhel7-x86_64/newtest
 # arbitrary change 1
 
 #- You may have to change test to something else
